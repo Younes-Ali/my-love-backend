@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "piggy_banks",
+  "info": {
+    "singularName": "piggy-bank",
+    "pluralName": "piggy-banks",
+    "displayName": "Piggy Bank"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "kissCount": {
+      "type": "integer",
+      "required": true,
+      "default": 0
+    },
+    "unlockDate": {
+      "type": "datetime",
+      "required": true
+    },
+    "isUnlocked": {
+      "type": "boolean",
+      "default": false
+    },
+    "lastUpdated": {
+      "type": "datetime"
+    }
+  }
+}

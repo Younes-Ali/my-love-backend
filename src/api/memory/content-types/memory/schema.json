@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "memories",
+  "info": {
+    "singularName": "memory",
+    "pluralName": "memories",
+    "displayName": "Memory"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Title",
+      "required": true
+    },
+    "memory": {
+      "type": "text",
+      "default": "what happened",
+      "required": true
+    },
+    "imogi": {
+      "type": "string",
+      "default": "❤️"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "order": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}
